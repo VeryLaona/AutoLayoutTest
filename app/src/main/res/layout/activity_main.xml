@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        android:background="#09AFF7">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="86px"
+        android:background="#FFFFFF"
+        android:layout_marginTop="26px"
+        android:layout_marginBottom="26px">
+
+        <ImageView
+            android:layout_width="34px"
+            android:layout_height="34px"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_addvisitor"
+            android:layout_marginLeft="276px"
+            android:layout_marginTop="26px"
+            android:layout_marginRight="26px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增旅客"
+            android:id="@+id/textView"
+            android:autoText="true"
+            android:textColor="#1fb6c4"
+            android:textSize="32px"
+            android:textIsSelectable="false"
+            android:layout_marginTop="26px" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+</LinearLayout>

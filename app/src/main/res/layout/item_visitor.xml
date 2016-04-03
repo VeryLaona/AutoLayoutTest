@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王大炮 WANG.DAPAO"
+            android:id="@+id/tv_name"
+            android:textSize="28px"
+            android:textIsSelectable="true"
+            android:textColor="#333333"
+            android:layout_marginTop="24px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="22px" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22px"
+            android:layout_marginBottom="16px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="护照："
+                android:id="@+id/textView5"
+                android:textColor="#999999"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G50786449"
+                android:id="@+id/tv_passport"
+                android:textSize="26px"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_weight="0.9"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_item_right" />
+    </LinearLayout>
+
+</LinearLayout>

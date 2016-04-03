@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AutoLayoutTest</string>
+    <string name="action_edit">编辑</string>
+    <string name="ab_share">分享</string>
+    <string name="action_settings">设置</string>
+</resources>
